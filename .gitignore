@@ -4,3 +4,5 @@ __pycache__/
 *.log
 data/*.npz
 data/*.npy
+data/*.feather
+data/skeletons/

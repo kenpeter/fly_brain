@@ -12,8 +12,8 @@ cp .env.example .env
 Put your neuPrint token in `.env` (get it at neuprint.janelia.org, never commit it).
 
 ```
-python play.py
-python fly_mario_real.py
+DISPLAY=:0 .venv/bin/python play_real_head.py   # visible: real NES Mario, fly brain
+SDL_VIDEODRIVER=dummy .venv/bin/python train_real_rl_v3.py 30  # headless RL, fly W frozen
 ```
 
 ## training datasets
