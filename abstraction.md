@@ -22,6 +22,12 @@
                            | RL coach       |
                            | tweaks readout |
                            | only, W frozen |
+                           +-------+--------+
+                                   |  *** TRAIN HERE ***
+                                   v  readout.npy
+                           +----------------+
+                           | motor readout  |
+                           | eyes->buttons  |
                            +----------------+
 ```
 
